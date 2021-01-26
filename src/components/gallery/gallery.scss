@@ -1,0 +1,34 @@
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: -1.5rem;
+    .item {
+        margin: .5rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        .name {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .img-container {
+            overflow: hidden;
+            width: 20rem;
+            height: 20rem;
+            .img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    &:hover {
+        .img {
+            transform: scale(1.1);
+            transition: all 1s ease-in-out;
+        }
+    }
+    }
+}

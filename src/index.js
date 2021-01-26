@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import CatsGallery from "./CatsGallery";
+import Home from "./components/home/home"
+import './index.css';
 
-ReactDOM.render(<CatsGallery />, document.getElementById("root"));
+ReactDOM.render(<Home />, document.getElementById("root"));

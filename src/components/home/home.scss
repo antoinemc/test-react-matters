@@ -1,0 +1,16 @@
+.home {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #ccc;
+    height: 100vh;
+    width: 100%;
+
+    .title {
+        font-size: 3rem;
+    }
+
+}

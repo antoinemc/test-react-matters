@@ -1,0 +1,23 @@
+.cat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__description{
+        display: flex;
+        flex-flow: column wrap;
+        font-size: 1.5rem;
+        ul {
+            li {
+                margin: .5rem 0 0;
+            }
+        }
+    }
+    &__button {
+        margin: 2rem;
+        align-self: center;
+        background: white;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        padding: .5rem 1rem;
+    }
+}

@@ -1,0 +1,21 @@
+html, body {
+    /* resetting for all devices */
+    font-size: 62.5% !important; /* 1 rem = 10 px; 10px / 16px = 62.5% */
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', Arial, 'Segoe UI', 'Oxygen', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p{
+    margin: 0;
+}
